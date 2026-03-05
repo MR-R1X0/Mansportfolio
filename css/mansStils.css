@@ -1,0 +1,20 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : Feb 6, 2026, 2:25:59 PM
+    Author     : rkucins2
+*/
+body{
+    background-color: beige;
+}
+a{
+    color: red;
+}
+.pirmais{
+    display: block;
+    background-color: whitesmoke;
+    justify-content: space-around;
+}
+
