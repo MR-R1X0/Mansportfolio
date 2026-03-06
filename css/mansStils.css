@@ -8,6 +8,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this t
 */
 body{
     background-image: url(/css images/background.jpg);
+    background-color: red;
 }
 a{
     color: red;
