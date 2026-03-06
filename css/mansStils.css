@@ -7,8 +7,10 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this t
     Author     : rkucins2
 */
 body{
-    background-image: url(/css images/background.jpg);
-    background-color: red;
+    background-image: url(../images/background.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
 }
 a{
     color: red;
