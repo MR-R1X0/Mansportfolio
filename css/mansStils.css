@@ -20,4 +20,19 @@ a{
     background-color: whitesmoke;
     justify-content: space-around;
 }
-
+h2{
+    color: black;
+}
+.balts{
+    color: whitesmoke;
+}
+h3{
+    color: black;
+}
+.melns{
+    color: black;
+}
+#projects{
+    background-color: white;
+    margin-top: 30pt;
+}
