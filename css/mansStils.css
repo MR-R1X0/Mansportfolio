@@ -21,11 +21,16 @@ a{
     justify-content: space-around;
 }
 h2{
-    color: black;
+    color: whitesmoke;
     text-align: center;
-    font-family: "Cherry Bomb One", system-ui;
-  font-weight: 400;
-  font-style: normal;
+    background: grey;
+  padding: 10px 20px;
+  border-radius: 25px;
+  text-shadow:
+    2px 2px 0 #616161,
+    4px 4px 0 #2f3030,
+    6px 6px 10px rgba(0,0,0,0.2);
+
 }
 .balts{
     color: whitesmoke;
@@ -44,7 +49,11 @@ h3{
 .pirmais{
     opacity: 0.9;
 }
-img{
-    width: 40%;
-    height: 50%;
+.gars{
+    width: 500px;
+    height: 600px;
+}
+.iss{
+    width: 600px;
+    height: 400px;
 }
