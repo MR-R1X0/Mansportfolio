@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this template
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <script>
+function maksa(){
+    let sk= Number(document.getElementByid("sk").value);
+    let result = sk*125;
+      	document.getElementById("skaitlis").value=result;
+	}
+
+</script>
+    <form>
+        <p>Aprēķināt, cik daudz informācijas var lejuplādēt</p> <br>
+        <p><input type="text" id="sk"> sekundēs, ja interneta ātrums ir 25 Mbps.</p>
+        <p>Atbilde <br>
+            <input type="text" id="skaitlis"> 
+            <input type="radio" id="kib" name="drink" onclick="maksa()">
+  <label for="kib">KiB</label>
+<input type="radio" id="kb" name="drink" onclick="maksa()">
+  <label for="kb">KB</label>
+        </form>
+    </body>
+</html>
