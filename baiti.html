@@ -12,10 +12,18 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
     <body>
         <script>
 function maksa(){
-    let sk= Number(document.getElementByid("sk").value);
-    let result = sk*125;
-      	document.getElementById("skaitlis").value=result;
-	}
+    let sk= Number(document.getElementById("sk").value);
+    
+    let result;
+
+    if (document.getElementById("kb").checked) {
+        result = sk*25*125;
+    } else if (document.getElementById("kib").checked) {
+        result = sk*25000/8.192;
+    } 
+
+    document.getElementById("skaitlis").value = result;
+}
 
 </script>
     <form>
